@@ -1,7 +1,12 @@
-import React from "react";
+import LocationComponent from "../../components/LocationComponent";
+
 
 const HomePage: React.FC = () => {
-  return <></>;
+  return (
+    <div>
+      <LocationComponent />
+    </div>
+    )
 };
 
 export default HomePage;
